@@ -1,0 +1,49 @@
+@CHARSET "utf-8";
+.h2
+{
+	font-family: "Malgun Gothic","맑은 고딕",dotum,'돋움',gulim,'굴림','Apple Gothic',Helvetica,sans-serif;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+.container
+{
+	border-bottom:1px solid black;
+	width:800px;
+	height:600px;
+	margin:auto;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+.top_menu
+{
+	background-color:gray;
+	color:white;
+	padding:8px;
+	position:relative;
+	height:35px;
+}
+
+.top_menu a:link { color: white; text-decoration: none;}
+.top_menu a:visited { color: white; text-decoration: none;}
+.top_menu a:hover { color: blue; text-decoration: none;}
+
+.fixed_bar
+{
+	width:40px;
+	height:1200px;
+	position:fixed;
+	background-color:#F4F3F3;
+}
+.fixed_bar h3
+{
+	margin-top:80px;
+	margin-left:5px;
+}
+.main_title{
+	margin-top:80px;
+	margin-left:250px;
+}
+._text{
+margin-left:10px;}

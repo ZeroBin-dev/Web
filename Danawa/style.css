@@ -1,0 +1,183 @@
+@CHARSET "utf-8";
+.top_menu
+{
+	background-color:gray;
+	color:white;
+	padding:8px;
+	position:relative;
+	height:35px;
+}
+
+.top_menu a:link { color: white; text-decoration: none;}
+.top_menu a:visited { color: white; text-decoration: none;}
+.top_menu a:hover { color: blue; text-decoration: none;}
+
+.fixed_bar
+{
+	width:40px;
+	height:1200px;
+	position:fixed;
+	background-color:#F4F3F3;
+}
+.fixed_bar h3
+{
+	margin-top:80px;
+	margin-left:5px;
+}
+.container
+{
+display: flex;
+flex-direction: column;
+padding:10px;
+margin:10px;
+}
+header
+{
+border-bottom:1px solid gray;
+padding-left:20px;
+}
+footer
+{
+background-color:#FAFAFA;
+color:black;
+height:300px;
+border-top:1px solid gray;
+padding:20px;
+text-align: center;
+}
+.foot1
+{
+	padding:10px;
+	margin-left:60px;
+	float:left;
+}
+.foot2
+{
+	padding:10px;
+	background-color:#EAE9E9;
+	margin-left:60px;
+	float:left;
+	clear:both;
+}
+.foot3
+{
+	margin-left:60px;
+	padding:10px;
+	float:left;
+	clear:both;
+}
+.content
+{
+display:flex;
+}
+.content nav
+{
+border-right:1px solid gray;
+}
+.content aside
+{
+border-left:1px solid gray;    
+}
+nav
+{
+flex-basis: 250px;
+flex-shrink: 0;
+}
+aside
+{
+	flex-basis:100px;
+	flex-shrink:0;
+}
+main
+{
+height:400px;
+margin:0;
+padding:0;
+}
+.btnlogo
+{
+	border:0px;
+	background-color:white;
+}
+.fixed_bar a:link { color: black; text-decoration: none;}
+.fixed_bar a:visited { color: black; text-decoration: none;}
+.fixed_bar a:hover { color: black; text-decoration: none;}
+
+.category a:link { color: white; text-decoration: none;}
+.category a:visited { color: white; text-decoration: none;}
+.category a:hover { color: blue; text-decoration: none;}
+
+footer a:link { color: white; text-decoration: none;}
+footer a:visited { color: white; text-decoration: none;}
+footer a:hover { color: blue; text-decoration: none;}
+.category li
+{
+	list-style:none;
+	margin-bottom:15px;
+	height:20px;
+}
+.category
+{
+	background-color:gray;
+	height:443px;
+	margin:0;
+	padding:0;
+}
+.top-ad img
+{
+	background-color:black;
+	height:100px;
+	margin-left:40px;
+}
+#login
+{
+	height:500px;
+	margin-left:70px; 
+	margin-top:70px; 
+	margin-bottom:50px;
+	width:400px;
+	border-right:1px solid cyan;	
+	display:inline-block;
+	display:flex;
+}
+#login_ad
+{
+	width:600px;
+	height:500px;
+	margin-top:70px; 
+	margin-bottom:50px;
+	display:flex;
+}
+#login_con
+{
+	display:flex;
+	border:1px solid gray;
+}
+.ad
+{
+	border:1px solid gray;
+}
+.category ul ul{
+	display:none;
+	position:absolute;
+	background-color:#5c5c5c;
+	top:237px;
+	left:475px;
+	width:870px;
+	height:460px;
+}
+.category ul li:hover ul {
+	display: block;
+}
+#btn_img{
+	width:500px;
+}
+#btn_next
+{
+	margin:0;
+	padding:0;
+	width:18%;
+	text-align:center;
+}
+
+

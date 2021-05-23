@@ -1,0 +1,55 @@
+@CHARSET "utf-8";
+#productname
+{
+	font-family: "Malgun Gothic","맑은 고딕",dotum,'돋움',gulim,'굴림','Apple Gothic',Helvetica,sans-serif;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+#performance
+{
+	font-family:dotum,'돋움';
+	color:#414141;
+	font-weight:lighter;
+	font-size:12px;
+}
+#header
+{
+
+	padding:30px;
+	border:1px solid gray;
+	width:1200px;
+	margin:auto;
+}
+#notice
+{
+	border:1px;
+	background-color:blue;
+	color:white;
+	font-size:8pt
+}
+#information
+{
+	color:blue;
+	font-size:8pt;
+	font-family: "Malgun Gothic";
+}
+#container
+{
+	margin:100px;
+	padding:30px;
+}
+#product_image
+{
+	border:1px solid gray;
+	width:500px;
+}
+#product_information
+{
+	border:1px solid gray;
+}
+#review
+{
+	border:1px solid gray;
+	width:200px;
+}
